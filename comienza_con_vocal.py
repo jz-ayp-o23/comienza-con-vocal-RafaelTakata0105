@@ -1,15 +1,19 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Tarea: Comienza con vocal
+Author: Rafael Takata García
+Fecha de entrega: 10/10/2023
+Grupo: ESI-232B-5
+Profesor: Jorge Adalberto Saldivar
 """
 
 # Declaraciones
-CONSTANTE = valor
-
+VOCALES = ["A", "Á", "E", "É", "I", "Í", "O", "Ó", "U", "Ú"]
 # Entradas
-entrada = input()
-
+palabra = input("Escribe una palabra: ")
 # Proceso
-
-
+primer_letra = palabra[0]
+if primer_letra.upper() in VOCALES:
+    print(f"'{palabra}' comienza con vocal")
+else:
+    print(f"'{palabra}' no comienza con vocal")
 # Salidas
-print(salida)
