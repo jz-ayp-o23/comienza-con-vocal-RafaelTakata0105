@@ -7,7 +7,7 @@ Profesor: Jorge Adalberto Saldivar
 """
 
 # Declaraciones
-VOCALES = ["A", "Á", "E", "É", "I", "Í", "O", "Ó", "U", "Ú"]
+VOCALES = ["A", "Á", "E", "É", "I", "Í", "O", "Ó", "U", "Ú", "Ü"]
 # Entradas
 palabra = input("Escribe una palabra: ")
 # Proceso
